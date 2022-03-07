@@ -43,6 +43,5 @@ const gameOver = () => {
     const element = document.getElementById(item[0])
     element.style.backgroundColor = 'white'
   })
-  window.alert('GAME OVER')
-  window.alert(clickedids.length-1)
+  window.alert("Game Over! You got a score of "+(clickedids.length-1))
 }
