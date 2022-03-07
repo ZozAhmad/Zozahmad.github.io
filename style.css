@@ -1,1 +1,35 @@
 
+#block1{
+  background-color: blue;
+  top: 0px;
+  left: 0px;
+}
+#block2{
+  background-color: lime;
+  top: 0px;
+  right: 0px;
+}
+#block3{
+  background-color: yellow;
+  bottom: 0px;
+  left: 0px;
+}
+#block4{
+  background-color: red;
+  bottom: 0px;
+  right: 0px;
+
+}
+.block {
+  height: 47.5vh;
+  width: 49.5vw;
+  position: absolute;
+  border: solid;
+  border-color: black;
+  border-width: 5px;
+}
+.container {
+  width: 99vw;
+  height: 95vh;
+  position: relative;
+}
