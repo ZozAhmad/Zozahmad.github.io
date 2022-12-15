@@ -44,8 +44,5 @@ const gameOver = () => {
     element.style.backgroundColor = 'white'
   })
   window.alert("Game Over! You got a score of "+(clickedids.length-1))
-<script>
-  document.getElementById('header').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='640' height='390' src='http://www.youtube.com/embed/W-Q7RMpINVo' frameborder='0' allowFullScreen></iframe>"
-</script>
 }
 
