@@ -44,5 +44,9 @@ const gameOver = () => {
     element.style.backgroundColor = 'white'
   })
   window.alert("Game Over! You got a score of "+(clickedids.length-1))
- window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  var obj = {"video": {
+  "value": "<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://www.youtube.com/watch?v=dQw4w9WgXcQ' frameborder='0' allowFullScreen></iframe>"
+}}
+document.write(obj.video.value);
 }
+
