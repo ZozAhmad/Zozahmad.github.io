@@ -44,4 +44,5 @@ const gameOver = () => {
     element.style.backgroundColor = 'white'
   })
   window.alert("Game Over! You got a score of "+(clickedids.length-1))
+  window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 }
