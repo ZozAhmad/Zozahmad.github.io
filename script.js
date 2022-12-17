@@ -44,13 +44,3 @@ const gameOver = () => {
   })
   window.alert("Game Over! You got a score of "+(clickedids.length-1))
 }
-
-
-
-// when you click a block, return it to normal colora
-// When you click the wrong block, lose
-// when you miss block time window, lose
-// print score
-//hw: Gameover function 
-//print score (alert)
-//say gameover
